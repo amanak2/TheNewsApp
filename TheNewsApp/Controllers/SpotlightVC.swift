@@ -85,6 +85,7 @@ class SpotlightVC: UIViewController, UITableViewDelegate, UITableViewDataSource 
     
     private func setupSearchBar() {
         searchController.searchResultsUpdater = self
+        searchController.hidesNavigationBarDuringPresentation = true
         searchController.searchBar.barStyle = .blackOpaque
         searchController.obscuresBackgroundDuringPresentation = false
         searchController.searchBar.placeholder = "Search News"

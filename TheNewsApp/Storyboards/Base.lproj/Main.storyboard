@@ -148,6 +148,36 @@
             </objects>
             <point key="canvasLocation" x="1022" y="-588"/>
         </scene>
+        <!--HeadlineVC-->
+        <scene sceneID="2PH-xU-Ig7">
+            <objects>
+                <viewController storyboardIdentifier="HeadlineVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="OmD-lk-WXX" customClass="HeadlineVC" customModule="TheNewsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ohz-mW-riJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="uqy-bO-lbP">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2Go-M6-DbY" firstAttribute="trailing" secondItem="uqy-bO-lbP" secondAttribute="trailing" id="Awx-Df-Hy0"/>
+                            <constraint firstAttribute="bottom" secondItem="uqy-bO-lbP" secondAttribute="bottom" id="IkG-R5-laU"/>
+                            <constraint firstItem="uqy-bO-lbP" firstAttribute="top" secondItem="Ohz-mW-riJ" secondAttribute="top" id="Tmz-gO-G8J"/>
+                            <constraint firstItem="uqy-bO-lbP" firstAttribute="leading" secondItem="2Go-M6-DbY" secondAttribute="leading" id="YOk-ge-wNB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="2Go-M6-DbY"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="uqy-bO-lbP" id="Ila-G8-7rK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wtJ-yS-vI4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1940" y="-588.75562218890559"/>
+        </scene>
     </scenes>
     <resources>
         <image name="latest" width="21.333333969116211" height="21.333333969116211"/>

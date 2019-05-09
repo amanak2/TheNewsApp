@@ -187,8 +187,9 @@ class HomeVC: UIViewController, UITableViewDelegate, UITableViewDataSource, Cate
     
     @objc func handleAllHeadlines() {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let controller = storyboard.instantiateViewController(withIdentifier: "HeadlinesVC")
-        navigationController?.pushViewController(controller, animated: true)
+        let controller = storyboard.instantiateViewController(withIdentifier: "HeadlineVC") as? HeadlineVC
+        controller?.category = self.category
+        navigationController?.pushViewController(controller!, animated: true)
     }
     
     //MARK: TABLEVIEW

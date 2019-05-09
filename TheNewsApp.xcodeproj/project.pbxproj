@@ -33,6 +33,7 @@
 		92CEEC652281CE2300B32560 /* HeadlineCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CEEC632281CE2300B32560 /* HeadlineCollectionCell.swift */; };
 		92CEEC662281CE2300B32560 /* HeadlineCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92CEEC642281CE2300B32560 /* HeadlineCollectionCell.xib */; };
 		92CEEC682281E45300B32560 /* Protocals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CEEC672281E45300B32560 /* Protocals.swift */; };
+		92CEEC6C2284613F00B32560 /* HeadlineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CEEC6B2284613F00B32560 /* HeadlineVC.swift */; };
 		D365C7F233E2ACC746C34E6E /* Pods_TheNewsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4902026E1765064215DDEF /* Pods_TheNewsApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,7 @@
 		92CEEC632281CE2300B32560 /* HeadlineCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineCollectionCell.swift; sourceTree = "<group>"; };
 		92CEEC642281CE2300B32560 /* HeadlineCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeadlineCollectionCell.xib; sourceTree = "<group>"; };
 		92CEEC672281E45300B32560 /* Protocals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocals.swift; sourceTree = "<group>"; };
+		92CEEC6B2284613F00B32560 /* HeadlineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineVC.swift; sourceTree = "<group>"; };
 		DC4902026E1765064215DDEF /* Pods_TheNewsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheNewsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6626F8B7EAE8C2C13BDF140 /* Pods-TheNewsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheNewsApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TheNewsApp/Pods-TheNewsApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				92755A4C2280582400B57DFF /* HomeVC.swift */,
+				92CEEC6B2284613F00B32560 /* HeadlineVC.swift */,
 				92CEEC5D2281B0BB00B32560 /* SpotlightVC.swift */,
 				92CEEC612281B5D700B32560 /* WebViewVC.swift */,
 			);
@@ -323,6 +326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92CEEC652281CE2300B32560 /* HeadlineCollectionCell.swift in Sources */,
+				92CEEC6C2284613F00B32560 /* HeadlineVC.swift in Sources */,
 				92755A83228090F800B57DFF /* UIViewExt.swift in Sources */,
 				92755A4D2280582400B57DFF /* HomeVC.swift in Sources */,
 				92CEEC562281817C00B32560 /* CategoryMenuBar.swift in Sources */,
